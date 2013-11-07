@@ -1,5 +1,0 @@
---cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork 
--I "D:\Program Files\Keil\ARM\RV31\INC" 
--I "D:\Program Files\Keil\ARM\CMSIS\Include" 
--I "D:\Program Files\Keil\ARM\Inc\ST\STM32F10x" 
---list ".\List\os_cpu_a.lst" --xref -o ".\Obeject\os_cpu_a.o" --depend ".\Obeject\os_cpu_a.d" "..\Ucosii\Port\os_cpu_a.asm"
